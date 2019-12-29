@@ -1,0 +1,84 @@
+body {
+    background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+    font-family: 'Cedarville Cursive', cursive;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 647px;
+    margin: 0 auto;
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 74px;
+}
+
+figure {
+    background-color: white ;
+    padding: 11px;
+    box-shadow: 4px 5px 18px 3px black;
+    position: relative;
+    margin: 9px;
+    width: 168px;
+    height: 199px;
+    transition: 0.2s;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box-one, .box-eight {
+    transform: rotate(-10deg);
+}
+
+.box-two {
+    transform: rotate(20deg);
+    z-index: 1;
+}
+
+.box-three {
+    transform:rotate(-15deg);
+}
+
+.box-four {
+    transform:rotate(15deg);
+    height: 157px;
+}
+
+.box-five {
+    transform:rotate(15deg);
+}
+
+.box-six {
+    transform:rotate(-10deg);
+    z-index: 2;
+}
+
+.box-seven {
+    transform:rotate(5deg);
+    z-index: 3;
+}
+
+.box-nine {
+    transform:rotate(5deg);
+}
+
+.box-ten {
+    transform:rotate(-2deg);
+}
+
+figure:hover {
+    transform:scale(1.5);
+    z-index: 20;
+}
