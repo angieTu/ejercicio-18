@@ -33,6 +33,17 @@ img {
     width: 100%;
 }
 
+.img-two {
+    filter: grayscale(74%);
+}
+.img-three {
+    filter: brightness(110%) contrast(85%) saturate(75%) sepia(22%);
+}
+
+.img-seven {
+    filter: blur(2px);
+}
+
 figcaption {
     margin-top: 10px;
     text-align: center;
