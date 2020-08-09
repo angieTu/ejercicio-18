@@ -41,10 +41,6 @@ img {
   filter: brightness(110%) contrast(85%) saturate(75%) sepia(22%);
 }
 
-.img-seven {
-  filter: blur(0.5px);
-}
-
 figcaption {
   margin-top: 10px;
   text-align: center;
